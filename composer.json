@@ -1,0 +1,35 @@
+{
+    "name": "landmarx/user-bundle",
+    "type": "library",
+    "description": "user bundle for the landmarx system.",
+    "keywords": [
+        "user",
+        "mapping",
+        "mapping system",
+        "node",
+        "node mapping"
+    ],
+    "homepage": "http://landmarx.daviddurost.net",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "David Durost",
+        "homepage": "http://daviddurost.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Landmarx\\Bundle\\UserBundle\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.*-dev"
+        }
+    }
+}

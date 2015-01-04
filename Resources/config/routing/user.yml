@@ -1,0 +1,16 @@
+landmarx_user_index:
+    path: /{page}
+    defaults: { _controller: LandmarxUserBundle:User:index, page: 1 }
+    requirements:
+        page: \d+
+landmarx_user_show:
+    path: /{slug}
+    defaults: { _controller: LandmarxUserBundle:User:show }
+landmarx_user_new:
+    path: /new
+    defaults: { _controller: LandmarxUserBundle:User:new }
+landmarx_user_search:
+    path: /search/{page}
+    defaults: { _controller: LandamrxUserBundle:User:search, page: 1 }
+    requirements:
+        page: \d+
